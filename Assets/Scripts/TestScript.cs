@@ -5,17 +5,30 @@ using UnityEngine;
 public class TestScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    //Step1. 変数に入れるデータを指定して変数を作る
-    //Step2.データを変数に割り当て
-    //Step.3変数の中のデータを使用する
-
     void Start()
     {
-        int number;
+        int a;
 
-        number = 3;
+        float b;
 
-        Debug.Log(number);
-        
+        string c;
+
+        bool d;
+
+        a = 1;
+
+        b = 0.01f;
+
+        c = "???????";
+
+        d = true;
+
+        Debug.Log(a);
+
+        Debug.Log(b);
+
+        Debug.Log(c);
+
+        Debug.Log(d);
     }
 }
