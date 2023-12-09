@@ -7,12 +7,24 @@ public class TestScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string a;
-        string b;
+        if (10 == 100)
+        {
+            Debug.Log("10 == 100 is true");
+        }
 
-        a = "Asan";
-        b = "ringo";
-        Debug.Log(a + "ha" + b);
+        if (10 != 100)
+        {
+            Debug.Log("10 == 100 is true");
+        }
 
+        if (10 < 100)
+        {
+            Debug.Log("10 == 100 is true");
+        }
+
+        if (10 > 100)
+        {
+            Debug.Log("10 == 100 is true");
+        }
     }
 }
