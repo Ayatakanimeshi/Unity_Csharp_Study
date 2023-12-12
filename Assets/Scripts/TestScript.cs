@@ -7,20 +7,13 @@ public class TestScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int score = 700;
+        int a = 5;
 
-        if(score < 500)
+         for(int i = 0; i < a; i++)
         {
-            Debug.Log("Brank");
-        }
-        else if(score < 1000)
-        {
-            Debug.Log("Arank");
-        }
-        else
-        {
-            Debug.Log("Srank");
+            Debug.Log("syoria");
         }
 
+         
     }
 }
