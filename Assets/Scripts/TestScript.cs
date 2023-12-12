@@ -7,29 +7,13 @@ public class TestScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int a = 2;
+        int a = 5;
 
-        switch (a)
+         for(int i = 0; i < a; i++)
         {
-            case 0:
-                Debug.Log("jikkou");
-                break;
-
-            case 1:
-                Debug.Log("jikkou1");
-                break;
-
-            case 2:
-                Debug.Log("jikkou2");
-                break;
-
-            case 3:
-                Debug.Log("jikkou3");
-                break;
-
-            default:
-                Debug.Log("default");
-                break;
+            Debug.Log("syoria");
         }
+
+         
     }
 }
