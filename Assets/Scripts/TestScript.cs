@@ -7,13 +7,14 @@ public class TestScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int a = 10;
-
-        while (a<100)
+        for (int i = 0; i < 4; i++)
         {
-            a += 20;
-            Debug.Log("a+20"+ a);
+            if (i == 2)
+            {
+                break;
+            }
+            Debug.Log("end2");
+
         }
-         
     }
 }
