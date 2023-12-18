@@ -5,15 +5,15 @@ using UnityEngine;
 public class TestScript : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    int a = 1;
+
     void Start()
     {
-        int a = 10;
-
-        while (a<100)
+        for (int i = 0; i < 4; i++)
         {
-            a += 20;
-            Debug.Log("a+20"+ a);
+            Debug.Log("i=" + i);
+
         }
-         
     }
 }
