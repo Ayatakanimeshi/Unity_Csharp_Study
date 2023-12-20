@@ -8,8 +8,12 @@ public class TestScript : MonoBehaviour
 
     void Start()
     {
-        int[] scoreArray = { 10, 20, 30, 40, 50 };
+        int[] scoreArray = new int[16];
 
-        Debug.Log(scoreArray[3]);
+        for (int i = 0; i < scoreArray.Length; i++)
+        {
+            scoreArray[i] = i * 20;
+            Debug.Log("number is" +i+ "to" + scoreArray[i]);
+        }
     }
 }
