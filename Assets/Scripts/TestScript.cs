@@ -8,12 +8,8 @@ public class TestScript : MonoBehaviour
 
     void Start()
     {
-        int[] scoreArray = new int[5];
+        int[] scoreArray = { 10, 20, 30, 40, 50 };
 
-        scoreArray[0] = 10;
-        scoreArray[1] = 20;
-        scoreArray[2] = 30;
-        scoreArray[3] = 40;
-        scoreArray[4] = 50;
+        Debug.Log(scoreArray[3]);
     }
 }
