@@ -4,16 +4,10 @@ using UnityEngine;
 
 public class TestScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-
-    int a = 1;
+    //????= new???[??????];
 
     void Start()
     {
-        for (int i = 0; i < 4; i++)
-        {
-            Debug.Log("i=" + i);
-
-        }
+        int[] scoreArray = new int[5];
     }
 }
