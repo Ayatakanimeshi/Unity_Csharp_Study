@@ -4,22 +4,15 @@ using UnityEngine;
 
 public class TestScript : MonoBehaviour
 {
-    //????= new???[??????];
-    float C(int ccc)
-    {
-        float number;
-
-        number = ccc * 1.5f;
-
-        return number;
-    }
-
     void Start()
     {
-        float x;
+        D(ddd2:"hello", ddd3: 0.5f, ddd1: 100);
+    }
 
-        x = C(5);
-
-        Debug.Log(x);
+    void D(int ddd1,string ddd2,float ddd3)
+    {
+        Debug.Log(ddd1);
+        Debug.Log(ddd2);
+        Debug.Log(ddd3);
     }
 }
