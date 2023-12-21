@@ -5,14 +5,21 @@ using UnityEngine;
 public class TestScript : MonoBehaviour
 {
     //????= new???[??????];
-    void B(string bbb)
+    float C(int ccc)
     {
-        Debug.Log(bbb);
+        float number;
+
+        number = ccc * 1.5f;
+
+        return number;
     }
 
     void Start()
     {
-        B("cal");
-        B("call");
+        float x;
+
+        x = C(5);
+
+        Debug.Log(x);
     }
 }
