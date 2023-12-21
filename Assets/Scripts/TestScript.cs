@@ -4,15 +4,48 @@ using UnityEngine;
 
 public class TestScript : MonoBehaviour
 {
+    //??????????
+    //??????????????????????
+
     void Start()
     {
-        D(ddd2:"hello", ddd3: 0.5f, ddd1: 100);
+        int scoreA = 100;
+        int scoreB = 150;
+        int scoreC = 170;
+        int scoreD = 200;
+
+        Debug.Log(SumScore(scoreA, scoreB));
+        Debug.Log(SumScore(scoreA, scoreB, scoreC));
+        Debug.Log(SumScore(scoreA, scoreB, scoreC, scoreD));
     }
 
-    void D(int ddd1,string ddd2,float ddd3)
+    //???????????????
+    int SumScore(int score1, int score2)
     {
-        Debug.Log(ddd1);
-        Debug.Log(ddd2);
-        Debug.Log(ddd3);
+        int totalScore;
+
+        totalScore = score1 + score2;
+
+        return totalScore;
+    }
+
+    //???????????????
+    int SumScore(int score1, int score2, int score3)
+    {
+        int totalScore;
+
+        totalScore = score1 + score2 + score3;
+
+        return totalScore;
+    }
+
+    //???????????????
+    int SumScore(int score1, int score2, int score3, int score4)
+    {
+        int totalScore;
+
+        totalScore = score1 + score2 + score3 + score4;
+
+        return totalScore;
     }
 }
