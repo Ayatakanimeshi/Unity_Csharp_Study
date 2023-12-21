@@ -5,15 +5,14 @@ using UnityEngine;
 public class TestScript : MonoBehaviour
 {
     //????= new???[??????];
+    void B(string bbb)
+    {
+        Debug.Log(bbb);
+    }
 
     void Start()
     {
-        int[] scoreArray = new int[16];
-
-        for (int i = 0; i < scoreArray.Length; i++)
-        {
-            scoreArray[i] = i * 20;
-            Debug.Log("number is" +i+ "to" + scoreArray[i]);
-        }
+        B("cal");
+        B("call");
     }
 }
