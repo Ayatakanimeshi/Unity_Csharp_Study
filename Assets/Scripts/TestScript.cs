@@ -4,33 +4,51 @@ using UnityEngine;
 
 public class TestScript : MonoBehaviour
 {
-    public enum ACTION_TYPE
-    {
-        JUMP,
-        ATTACK,
-        DEFENCE
-    }
+    //List
+    //????????????????
 
     private void Start()
     {
-        ACTION_TYPE actionType;
+        /*List
+        ??????
+        ?  List<??> ???;
 
-        actionType = ACTION_TYPE.JUMP;
+        ????
+           ??? = new List<??>();
 
-        switch (actionType)
+          ???????
+           Add()?????
+        ??List?????.Add(????????);
+
+        ??????
+           ???[???]
+        */
+
+
+
+        //??????
+        int[] scoreArray = { 10, 20, 30, 40, 50 };
+
+        //?????????
+        Debug.Log("??????=" + scoreArray[2]);
+
+        //?????????
+        for (int i = 0; i < scoreArray.Length; i++)
         {
-            case ACTION_TYPE.JUMP:
-                //jump
-                Debug.Log("jump");
-                break;
+            Debug.Log("?????=" + scoreArray[i]);
+        }
 
-            case ACTION_TYPE.ATTACK:
-                //attack
-                break;
+        //List????
+        List<int> scoreList = new List<int>() { 10, 20, 30, 40, 50 };
 
-            case ACTION_TYPE.DEFENCE:
-                //defence
-                break;
+        //List ??????
+        Debug.Log("List????=" + scoreList[2]);
+
+        //List ??????
+        for (int i = 0; i < scoreList.Count; i++)
+        {
+            Debug.Log("List???=" + scoreList[i]);
         }
     }
+
 }
