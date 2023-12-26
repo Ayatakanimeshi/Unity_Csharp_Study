@@ -4,20 +4,33 @@ using UnityEngine;
 
 public class TestScript : MonoBehaviour
 {
-    //??????????
-    //??????????????????????
-
-    void Start()
+    public enum ACTION_TYPE
     {
-        float targetNumber = 11.5f;
+        JUMP,
+        ATTACK,
+        DEFENCE
+    }
 
-        float floorResult = Mathf.Floor(targetNumber);
-        Debug.Log(floorResult);
+    private void Start()
+    {
+        ACTION_TYPE actionType;
 
-        float ceilResult = Mathf.Ceil(targetNumber);
-        Debug.Log(ceilResult);
+        actionType = ACTION_TYPE.JUMP;
 
-        float roundResult = Mathf.Round(targetNumber);
-        Debug.Log(roundResult);
+        switch (actionType)
+        {
+            case ACTION_TYPE.JUMP:
+                //jump
+                Debug.Log("jump");
+                break;
+
+            case ACTION_TYPE.ATTACK:
+                //attack
+                break;
+
+            case ACTION_TYPE.DEFENCE:
+                //defence
+                break;
+        }
     }
 }
