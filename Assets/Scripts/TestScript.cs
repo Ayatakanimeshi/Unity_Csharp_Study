@@ -9,12 +9,12 @@ public class TestScript : MonoBehaviour
 
     private void Start()
     {
-        int[] scoreArray = { 10, 20, 30, 40, 50 };
+        int a = 10;
 
-        foreach (int a in scoreArray)
+        do
         {
             Debug.Log(a);
-        }
+        } while (a == 100);
     }
 
 }
