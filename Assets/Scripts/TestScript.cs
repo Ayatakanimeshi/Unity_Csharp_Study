@@ -16,5 +16,7 @@ public class TestScript : MonoBehaviour
         //z=100 
         TestObject.transform.Translate(1, 10, 100);
         TestObject.transform.Translate(1, 10, 100);
+
+        TestObject.transform.localPosition = new Vector3(1.0f,10.0f,100.0f);
     }
 }
