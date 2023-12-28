@@ -7,14 +7,11 @@ public class TestScript : MonoBehaviour
     //List
     //????????????????
 
+    public GameObject TestObject;
+
     private void Start()
     {
-        int a = 10;
-
-        do
-        {
-            Debug.Log(a);
-        } while (a == 100);
+        TestObject.name = "CubeXXX";
     }
 
 }
