@@ -11,7 +11,10 @@ public class TestScript : MonoBehaviour
 
     private void Start()
     {
-        TestObject.name = "CubeXXX";
+        //x=1
+        //y=10
+        //z=100 
+        TestObject.transform.Translate(1, 10, 100);
+        TestObject.transform.Translate(1, 10, 100);
     }
-
 }
