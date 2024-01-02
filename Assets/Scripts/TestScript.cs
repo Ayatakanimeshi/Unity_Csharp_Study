@@ -11,7 +11,6 @@ public class TestScript : MonoBehaviour
 
     private void Start()
     {
-        //(x,y,z)
-        TestObject.transform.Rotate(1.0f, 10.0f, 100.0f);
+        TestObject.transform.localEulerAngles = new Vector3(1.0f, 10.0f, 100.0f);
     }
 }
