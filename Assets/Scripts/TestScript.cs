@@ -11,8 +11,6 @@ public class TestScript : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("position = " + TestObject.transform.localPosition);
-        Debug.Log("kaiten = " + TestObject.transform.localEulerAngles);
-        Debug.Log("scale = " + TestObject.transform.localScale);
+        Debug.Log(TestObject.activeSelf);
     }
 }
