@@ -11,6 +11,6 @@ public class TestScript : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log(TestObject.activeSelf);
+        Debug.Log(TestObject.activeInHierarchy);
     }
 }
