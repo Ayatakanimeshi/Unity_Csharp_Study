@@ -11,10 +11,7 @@ public class TestScript : MonoBehaviour
 
     private void Start()
     {
-        //x=1
-        //y=10
-        //z=100 
-        TestObject.transform.Translate(1, 10, 100);
-        TestObject.transform.Translate(1, 10, 100);
+        //(x,y,z)
+        TestObject.transform.Rotate(1.0f, 10.0f, 100.0f);
     }
 }
