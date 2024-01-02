@@ -11,6 +11,6 @@ public class TestScript : MonoBehaviour
 
     private void Start()
     {
-        TestObject.transform.localEulerAngles = new Vector3(1.0f, 10.0f, 100.0f);
+        TestObject.transform.localScale = new(100.0f, 10.0f, 100.0f);
     }
 }
